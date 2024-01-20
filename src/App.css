@@ -1,13 +1,22 @@
-*{
-  margin:0;
-  padding:0;
+* {
+  margin: 0;
+  padding: 0;
   box-sizing: border-box;
 }
-:root{
-  --bg-white-color : rgb(241, 241, 241);
-  --bg-blue-color : rgb(158, 232, 255);
+/* app light-dark mode */
+:root {
+  --bg-white-color: rgb(241, 241, 241);
+  --bg-blue-color: rgb(158, 232, 255);
 }
-body{
-  background: linear-gradient(45deg, var(--bg-white-color) 50%, var(--bg-blue-color) 50%);
-  height:auto;
+.darkmode {
+  --bg-white-color: rgb(92, 92, 92);
+  --bg-blue-color: rgb(27, 27, 27);
+}
+body {
+  background: linear-gradient(
+    45deg,
+    var(--bg-white-color) 50%,
+    var(--bg-blue-color) 50%
+  );
+  height: auto;
 }

@@ -1,11 +1,22 @@
+/* footer light and dark mode */
+:root {
+  --footer-bg-color: white;
+  --font-color: rgb(33, 37, 41);
+}
+.darkmode {
+  --footer-bg-color: rgb(33, 37, 41);
+  --font-color: white;
+}
+
 /* footer style */
-footer>p{
-    font-size: medium;
-    font-weight: 600;
-    color:white;
-    background-color: black;
-    padding:16px;
-    position: relative;
-    bottom: 0;
-    text-align: center;
+
+footer > p {
+  font-size: medium;
+  font-weight: 600;
+  color: var(--font-color);
+  background-color: var(--footer-bg-color);
+  padding: 16px;
+  position: relative;
+  bottom: 0;
+  text-align: center;
 }
