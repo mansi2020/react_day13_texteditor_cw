@@ -113,7 +113,7 @@ const TextEditor = () => {
             backgroundColor:
               state.message == "DANGER: Cleared the whole Text"
                 ? "rgb(242, 151, 151)"
-                : "rgb(180, 252, 160)",
+                : "rgb(180, 252, 160)", color:"black"
           }}
         >
           {state.message}
